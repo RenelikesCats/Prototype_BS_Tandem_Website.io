@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepagina - Basisschool de tandem</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&family=JetBrains+Mono:wght@800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="script/index.js" defer></script>
+</head>
+<body>
+
+    <header class="site-header">
+        <a href="#" class="logo">BS Tandem</a>
+        <button id="mobile-menu-btn" class="mobile-menu-btn" aria-label="Open menu">
+            <svg fill="none" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/>
+            </svg>
+        </button>
+    </header>
+
+    <nav id="nav-overlay" class="nav-overlay">
+        <div id="nav-menu-box" class="nav-menu-box nav-visible">
+            <ul class="nav-list">
+                <li><a href="#sectie1" class="nav-link">Home</a></li>
+                <li><a href="#sectie1" class="nav-link">Praktisch</a></li>
+                <li><a href="#sectie2" class="nav-link">Over ons</a></li>
+                <li><a href="#sectie2" class="nav-link">Inschrijven</a></li>
+                <li><a href="#sectie3" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="sectie1" class="split-section">
+        <!-- Left Side: Yellow -->
+        <div class="panel panel-end bg-yellow">
+            <div class="content-box">
+                <h1 class="headline">
+<!--                    Leeftijds-<br>overschrijdend<br>en onder-<br>zoekend leren-->
+<!--                    <br><br> Elke dag<br> opnieuw staan <br>onze leerkrachten <br>klaar voor uw kind!-->
+                    Innovatieve Tandemklassen
+                </h1>
+            </div>
+        </div>
+
+        <!-- Right Side: Light -->
+        <div class="panel bg-light background-lines">
+            <div class="content-box ml-auto-desktop">
+                <p class="body-text">
+                    Elke dag opnieuw staan onze leerkrachten klaar voor uw kind!
+                    <br> <br> Ons gedreven team streeft naar blijvende innovatie. Dit verwezenlijken we door steeds nieuwe methodes, werkwijzen en technologieën toe te passen. Digitalisering is hier zeker één van. We zorgen voor een correct en doordacht evenwicht tussen outdoor education en het gebruik van de 21e eeuwse vaardigheden
+                </p>
+                <div class="tags-container">
+                    <span class="tag tag-filled">Inschrijven</span>
+                    <span class="tag tag-outlined">Lees onze schoolvisie</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sectie2" class="split-section">
+        <!-- Left Side: Light -->
+        <div class="panel bg-light order-2-mobile order-1-desktop background-lines">
+            <div class="content-box">
+                <p class="body-text">
+                    Onze school heeft een studieaanbod afgestemd op de noden van de individuele leerling. Zo werken we niet enkel met (de gekende) jaarklassen, maar hebben we ook Tandemklassen waarin twee leeftijdsgroepen samen zitten. </p>
+                <p class="body-text">
+                    Dit geheel waarin leerlingen leren van en met elkaar noemen wij onze Tandemklaswerking. Met deze specifieke en unieke klassenstructuur zetten we in op meer zelfstandigheid en verantwoordelijkheidszin.                </p>                </p>
+            </div>
+        </div>
+
+        <!-- Right Side: Blue -->
+        <div class="panel panel-end bg-blue order-1-mobile order-2-desktop">
+            <div class="content-box ml-auto-desktop">
+                <h2 class="headline">
+                    Open en <br> toegankelijke sfeer
+<!--                    In een<br>nieuwe<br>school-->
+                </h2>
+            </div>
+        </div>
+    </section>
+
+    <section id="sectie3" class="split-section">
+        <!-- Left Side: Red -->
+        <div class="panel panel-end bg-red">
+            <div class="content-box">
+                <h2 class="headline">
+<!--                    Van kleuter<br>tot eerste<br>graad secundair-->
+                    Aandacht en <br> zorg voor <br> élk kind
+                </h2>
+            </div>
+        </div>
+
+        <!-- Right Side: Light -->
+        <div class="panel bg-light background-lines">
+            <div class="content-box ml-auto-desktop">
+                <p class="body-text">
+                    Zowel in de Tandemklassen, als in de jaarklassen wordt er vaak klasdoorbrekend gewerkt. Op die manier krijgen de kinderen maximaal de kans om elkaar beter te leren kennen en van elkaar te leren, en dat op veel uiteenlopende <vlakken class=""></vlakken>                </p>
+                <p class="body-text">
+                    Als team vinden we het zeer belangrijk om de kinderen een goed gevoel te geven op school en ze respectvol met elkaar te leren omgaan.                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="sectie-gallery" class="gallery-section">
+        <div class="gallery-header">
+            <div class="gallery-title-wrapper">
+                <span class="section-tag">Ontdek onze school</span>
+                <h2 class="headline" style="margin-bottom: 0;">Sfeerbeelden van De Tandem</h2>
+            </div>
+            <div class="gallery-controls">
+                <button id="prev-slide" class="slider-btn" aria-label="Vorige foto's">&larr;</button>
+                <button id="next-slide" class="slider-btn" aria-label="Volgende foto's">&rarr;</button>
+            </div>
+        </div>
+
+        <div class="slider-container">
+            <div id="slider-track" class="slider-track">
+
+                <!-- SLIDE 1 (4 FOTO'S) -->
+                <div class="slide">
+                    <div class="photo-card">
+                        <div class="photo-wrapper">
+                            <img src="https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=600&q=80" alt="Lasklokaal en units">
+                        </div>
+                        <div class="photo-info">
+                            <h3 class="photo-title">Open Leerunits</h3>
+                            <p class="photo-caption">Geen strakke klaslokalen, maar open hoeken voor onderzoekend leren.</p>
+                        </div>
+                    </div>
+
+                    <div class="photo-card">
+                        <div class="photo-wrapper">
+                            <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=600&q=80" alt="Samenwerken">
+                        </div>
+                        <div class="photo-info">
+                            <h3 class="photo-title">Samenwerken</h3>
+                            <p class="photo-caption">Leeftijdsoverschrijdend leren in kleine projectgroepen.</p>
+                        </div>
+                    </div>
+
+                    <div class="photo-card">
+                        <div class="photo-wrapper">
+                            <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=600&q=80" alt="STEM Labo">
+                        </div>
+                        <div class="photo-info">
+                            <h3 class="photo-title">STEM & Technologie</h3>
+                            <p class="photo-caption">Ontdekken, experimenteren en bouwen in ons labo.</p>
+                        </div>
+                    </div>
+
+                    <div class="photo-card">
+                        <div class="photo-wrapper">
+                            <img src="https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&w=600&q=80" alt="Bibliotheek en rusthoek">
+                        </div>
+                        <div class="photo-info">
+                            <h3 class="photo-title">Projectruimte</h3>
+                            <p class="photo-caption">Ruimte voor rust, lezen en individuele verdieping.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SLIDE 2 (4 FOTO'S) -->
+                <div class="slide">
+                    <div class="photo-card">
+                        <div class="photo-wrapper">
+                            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=600&q=80" alt="Didactische keuken">
+                        </div>
+                        <div class="photo-info">
+                            <h3 class="photo-title">Didactische Keuken</h3>
+                            <p class="photo-caption">Samen koken, wegen en rekenen in de praktijk.</p>
+                        </div>
+                    </div>
+
+                    <div class="photo-card">
+                        <div class="photo-wrapper">
+                            <img src="https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?auto=format&fit=crop&w=600&q=80" alt="Speelplaats en dak">
+                        </div>
+                        <div class="photo-info">
+                            <h3 class="photo-title">Dakspeelplaats</h3>
+                            <p class="photo-caption">Inclusief de beroemde schuifaf vanaf ons schooldak!</p>
+                        </div>
+                    </div>
+
+                    <div class="photo-card">
+                        <div class="photo-wrapper">
+                            <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?auto=format&fit=crop&w=600&q=80" alt="Crearuimte">
+                        </div>
+                        <div class="photo-info">
+                            <h3 class="photo-title">Atelier & Crea</h3>
+                            <p class="photo-caption">Creatieve expressie met diverse materialen en technieken.</p>
+                        </div>
+                    </div>
+
+                    <div class="photo-card">
+                        <div class="photo-wrapper">
+                            <img src="https://images.unsplash.com/photo-1571260899304-425eee4c7efc?auto=format&fit=crop&w=600&q=80" alt="Buitenruimte">
+                        </div>
+                        <div class="photo-info">
+                            <h3 class="photo-title">Buitenschools Leren</h3>
+                            <p class="photo-caption">Actief ontdekken in en rondom Vilvoorde.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="slider-pagination" class="slider-pagination">
+            <span class="dot active" data-slide="0"></span>
+            <span class="dot" data-slide="1"></span>
+        </div>
+    </section>
+
+    <footer id="footer" class="site-footer">
+        <div class="footer-grid">
+            <div>
+                <h3 class="footer-title">Basisschool De Tandem</h3>
+                <p class="footer-text">
+                    Een eigentijdse, vernieuwende en warme leerafdeling in hartje van Eeklo.
+                </p>
+            </div>
+            <div>
+                <h4 class="footer-heading footer-heading-yellow">Contact & Adres</h4>
+                <p class="footer-text">Basisschool De Tandem</p>
+                <p class="footer-text">Eikelstraat 41B, 9900 Eeklo</p>
+                <p class="footer-text">info@basisschool-detandem.be</p>
+                <p class="footer-text">09 377 56 44</p>
+            </div>
+            <div>
+                <h4 class="footer-heading footer-heading-blue">Inschrijven</h4>
+                <p class="footer-text">Kom langs op onze opendeurdag voor een persoonlijke rondleiding. </p>
+                <a href="#" class="cta-btn">
+                    Schrijf je in voor een opendeurdag
+                </a>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 Basisschool De Tandem. Alle rechten voorbehouden.</p>
+<!--            <p> Geïnspireerd op het originele Tangram visuele concept.</p>-->
+        </div>
+    </footer>
+
+
+</body>
+</html>
